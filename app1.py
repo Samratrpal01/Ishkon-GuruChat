@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 import docx
-openai.api_key = "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"
+openai.api_key = "your api key"
 file_path="file.docx"
 
 doc = docx.Document(file_path)
